@@ -1,0 +1,23 @@
+# Binaries for programs and plugins
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go Binary
+*.gob
+
+# Test binary, build with `go test -c`
+*.test
+coverage.txt
+*.tmp
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# goland
+.idea/
+
+.local_dist/
