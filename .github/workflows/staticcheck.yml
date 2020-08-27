@@ -63,9 +63,9 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: check
-          uses: grandcolline/golang-github-actions@v1.1.0
-          with:
+        uses: grandcolline/golang-github-actions@v1.1.0
+        with:
           run: sec
           token: ${{ secrets.GITHUB_TOKEN }}
-        flags: "-exclude=G104"
+          flags: "-exclude=G104"
 
